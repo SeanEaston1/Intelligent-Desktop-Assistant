@@ -1,1 +1,1 @@
-# Zeus: Smart Voice Assistant for Your Desktop
+# Intelligent Desktop Assistant
