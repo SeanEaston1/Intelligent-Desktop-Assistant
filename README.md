@@ -4,14 +4,14 @@ This repository contains the code for an Intelligent Desktop Assistant project c
 
 ## Features
 
-- Voice recognition: Jarvis can understand and convert speech to text using the `speech_recognition` library.
-- Website opening: Open popular websites like YouTube, Wikipedia, and Google with simple voice commands.
-- Music playback: Enjoy music by playing local files using Jarvis.
-- Time display: Ask Jarvis for the current time, and it will provide the information.
-- App launching: Open specific applications such as FaceTime with voice commands.
-- Artificial Intelligence integration: The project leverages OpenAI to enhance natural language processing capabilities.
-- Chatting with Jarvis: Engage in conversations with Jarvis and get intelligent responses.
-- Chat history reset: Reset the chat history with Jarvis to start fresh.
+- **Voice recognition:** Jarvis can understand and convert speech to text using the `speech_recognition` library.
+- **Website opening:** Open popular websites like YouTube, Wikipedia, and Google with simple voice commands.
+- **Music playback:** Enjoy music by playing local files using Jarvis.
+- **Time display:** Ask Jarvis for the current time, and it will provide the information.
+- **App launching:** Open specific applications such as FaceTime with voice commands.
+- **Artificial Intelligence integration:** The project leverages OpenAI to enhance natural language processing capabilities.
+- **Chatting with Jarvis:** Engage in conversations with Jarvis and get intelligent responses.
+- **Chat history reset:** Reset the chat history with Jarvis to start fresh.
 
 ## Prerequisites
 
