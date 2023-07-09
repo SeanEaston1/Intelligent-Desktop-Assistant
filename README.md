@@ -1,4 +1,4 @@
-# Intelligent Desktop Assistant
+# J.A.R.V.I.S
 
 This repository contains the code for an Intelligent Desktop Assistant project called "Jarvis." The assistant utilizes speech recognition, natural language processing, and various APIs to provide a seamless user experience.
 
