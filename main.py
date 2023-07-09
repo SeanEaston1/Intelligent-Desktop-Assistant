@@ -27,7 +27,6 @@ def chat(query):
     chatStr += f"{response['choices'][0]['text']}\n"
     return response["choices"][0]["text"]
 
-    # with open(f"OpenAi/prompt- {random.randint(1, 2343434356)}", "w") as f:
     with open(f"OpenAi/{''.join(prompt.split('intelligence')[1:1]).strip()}.txt", "w") as f:
         f.write(text)
 
@@ -50,7 +49,6 @@ def ai(prompt):
     if not os.path.exists("OpenAi"):
         os.mkdir("OpenAi")
 
-    # with open(f"OpenAi/prompt- {random.randint(1, 2343434356)}", "w") as f:
     with open(f"OpenAi/{''.join(prompt.split('intelligence')[1:1]).strip()}.txt", "w") as f:
         f.write(text)
 
@@ -77,13 +75,11 @@ def takecommand():
 if __name__ == '__main__':
     print("Say something")
     say("Hello Sir I am Jarvis. How can i help you?")
-    # say("Hello I am. How can i you?")
 
     while True:
         print("Listening...")
         query = takecommand()
 
-        # todo: Add more sites
         # For opening Websites
         sites = [["youtube", "https://www.youtube.com"], ["wikipedia", "https://www.wikipedia.com"],
                  ["google", "www.Google.com"]]
@@ -92,10 +88,9 @@ if __name__ == '__main__':
                 say(f"Opening {site[0]} Sir")
                 webbrowser.open(site[1])
 
-        # todo: Add a feature to play more specific songs like you did in websites
         # For opening music
         if "music" in query:
-            musicPath = "/Users/tanayrajsrivastava/Downloads/We%20Rollin%20-%20Shubh.mp3"
+            musicPath = "---"
             os.system(f"open {musicPath}")
 
         # For Asking time
@@ -103,7 +98,6 @@ if __name__ == '__main__':
             strfTime = datetime.datetime.now().strftime("%H:%M")
             say(f"Sir the time is {strfTime}")
 
-        # todo: Add a feature to open more specific apps like you did in websites
         # For opening any app
         elif "open facetime".lower() in query.lower():
             os.system(f"open /System/Applications/FaceTime.app")
@@ -122,16 +116,3 @@ if __name__ == '__main__':
         else:
             print("Chatting")
             chat(query)
-
-        # todo: Add a feature to find weather in your location
-        '''
-                API: weatherapi.com
-                code
-        '''
-
-        # todo: Add a feature to find news in your location
-        '''
-                API: newsapi.org
-                code
-        '''
-
